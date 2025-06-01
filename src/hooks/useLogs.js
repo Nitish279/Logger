@@ -7,7 +7,7 @@ export function useLogs() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/logs.log")
+    fetch(`${import.meta.env.BASE_URL}logs.log`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
         return res.text();
