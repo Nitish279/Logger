@@ -1,11 +1,11 @@
 # Logs
 logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# *.log  <-- comment out to allow logs.log in public/
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+# lerna-debug.log*
 
 node_modules
 dist
