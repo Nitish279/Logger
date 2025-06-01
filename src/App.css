@@ -1,0 +1,17 @@
+.app {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.loading {
+  padding: 1rem;
+}
+
+.error {
+  padding: 1rem;
+  color: red;
+}
+
+.no-jobs {
+  padding: 1rem;
+}

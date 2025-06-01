@@ -1,0 +1,28 @@
+.log-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.log-th {
+    border: 1px solid #0c0c0c;
+    padding: 0.5rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.log-td {
+    border: 1px solid #0c0c0c;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.log-warning {
+    background-color: #fff3cd;
+    color: black;
+}
+
+.log-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
